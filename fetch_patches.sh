@@ -95,7 +95,7 @@ generatedJson=$(jq --null-input --argjson pkgs "$pkgs" --argjson savedJson "$sav
                                     empty
                                 end
                             else
-                                "hi"
+                                null
                             end
                         )
                 ]
